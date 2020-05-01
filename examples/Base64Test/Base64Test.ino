@@ -45,10 +45,10 @@ void setup()
   while (*s)
   {
     coder.encode(*s++);
-    for (char c; c = coder.eget(); )
+    for (char c; (c = coder.eget()); )
       Serial.print(c);
   }
-  for (char c; c = coder.finalize(); )
+  for (char c; (c = coder.finalize()); )
     Serial.print(c);
 
   //

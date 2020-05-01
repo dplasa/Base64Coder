@@ -1,4 +1,4 @@
-#include "Base64.h"
+#include "Base64Coder.h"
 
 void Base64Coder::init()
 {
