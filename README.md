@@ -13,11 +13,13 @@ Decoding a string of Base64 symbols is done by calling `bool Base64Coder::decode
 Call `uint8_t Base64Coder::dget()` to get the next decoded message byte.
 
 ## Tutorial
-Place the base64 library folder in your `<arduinosketchfolder>/libraries/` folder. You may need to create the libraries subfolder if its your first library. Restart the IDE.
+Place the Base64Coder library folder in your `<arduinosketchfolder>/libraries/` folder. You may need to create the libraries subfolder if its your first library. Restart the IDE.
 
-To use it in your code, construct an instace of the coder with  
-`#include <Base64Coder.h>`  
-`Base64Coder coder;`
+To use it in your code, construct an instace of the coder with
+```C++
+#include <Base64Coder.h>  
+Base64Coder coder;
+```
 
 Before encodung or decoding, initialize via `coder.init();`
 
