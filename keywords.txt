@@ -1,0 +1,19 @@
+###########################################
+# Syntax Coloring Map For Base64Coder
+###########################################
+
+###########################################
+# Datatypes (KEYWORD1)
+###########################################
+
+Base64Coder   	KEYWORD1
+
+###########################################
+# Methods and Functions (KEYWORD2)
+###########################################
+
+init       	    KEYWORD2
+encode       	KEYWORD2
+eget         	KEYWORD2
+decode          KEYWORD2
+dget            KEYWORD2
